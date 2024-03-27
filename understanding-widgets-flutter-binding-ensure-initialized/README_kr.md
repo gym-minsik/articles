@@ -2,6 +2,11 @@
 
 [English](README.md), [한국어](README_kr.md)
 
+## 바쁜 사람들을 위한 요약
+WidgetsFlutterBinding.ensureInitialized()를 앱 시작 시점에 호출하면 Flutter 앱이 MethodChannel.invokeMethod와 같은 메서드를 통해 네이티브 플랫폼과 상호작용할 수 있도록 채널을 초기화합니다.
+
+결론적으로 이 작업은 Firebase와 같이 네이티브 플랫폼과 상호작용하는 기능들이 안정적으로 동작할 수 있도록 합니다.
+
 ## Overview
 Flutter 앱 개발 시, 대부분의 개발자들은 main() 함수에서 WidgetsFlutterBinding.ensureInitialized()를 호출한 경험이 있을 것입니다. 특정 패키지 문서에서 runApp() 호출 전에 이를 사용하라고 권장하고 있죠.
 
