@@ -3,7 +3,7 @@
 [English](README.md), [한국어](README_kr.md)
 
 ## TL;DR
-Invoking `WidgetsFlutterBinding.ensureInitialized()` before `runApp` establishes communication channels with the native platform, using methods like MethodChannel.invokeMethod. 
+Invoking `WidgetsFlutterBinding.ensureInitialized()` before `runApp` establishes communication channels with the native platform for methods like `MethodChannel.invokeMethod`.
 
 This step is crucial for ensuring that functionalities, especially those interacting with native platforms like Firebase, operate reliably and smoothly.
 
