@@ -35,7 +35,7 @@
     3. didUpdateWidget(oldWidget);
    
 **4. Dispose Phase**
-  - When:  Flutter Engine은 주기적으로 BuildOwner.inactiveElements에 들어있는 요소들을 dispose한다. 
+  - When: The Flutter Engine periodically disposes of elements in BuildOwner.inactiveElements.
     ```
     WidgetsBinding.drawFrame
       -> BuildOwner.finalizeTree() 
