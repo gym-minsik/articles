@@ -10,6 +10,6 @@ A curated collections of insightful articles.
   Hoisting is a JavaScript behavior that lifts variable and function declarations to their scope's top. This guide explains why knowing about hoisting is essential to avoid bugs and ensure your code runs as expected.
 - [`go_router_riverpod`](https://github.com/lucavenir/go_router_riverpod)  
   For developers integrating `riverpod` with `go_router`, this repository is the go-to resource. It offers practical examples, backed by a community's expertise, showcasing effective solutions and best practices.
-- [`flutter-lifecycle-cheat-sheet`](./flutter-lifecycle-cheat-sheet/README.md)
+- [`flutter-lifecycle-cheat-sheet`](./flutter-lifecycle-cheat-sheet/README.md)  
   Understanding the life cycle of StatelessWidget, which involves simple creation and rebuilds, and StatefulWidget, which includes initialization, potential reactivation, and disposal, is essential for optimizing app performance and managing resources efficiently.
 
