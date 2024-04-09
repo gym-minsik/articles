@@ -27,7 +27,7 @@
      
 **3. Rebuild Phase**
   - When:
-    - `setState` was called and the widget got a chance to be rebuilt by Flutter Engine.
+    - `setState` was called and the widget got a chance to be rebuilt by Flutter Framework.
     - the parent is rebuilding.
   - What:
     1. didChangeDependencies() if didChangeDependencies
